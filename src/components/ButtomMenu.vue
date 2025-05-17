@@ -6,16 +6,16 @@
         <span class="label">Inicio</span>
       </router-link>
       <router-link to="/buses" class="menu-item">
-        <font-awesome-icon :icon="['fas', 'Bus']" style="color: #1e88e5; font-size: 18px; margin-right: 5px;" />
+        <font-awesome-icon :icon="['fas', 'bus']" style="color: #007BFF; font-size: 18px; margin-right: 5px;" />
 
         <span class="label">Buses</span>
       </router-link>
       <router-link to="/taxis" class="menu-item">
-        
+        <font-awesome-icon :icon="['fas', 'taxi']" style="color: #007BFF; font-size: 18px; margin-right: 5px;" />
         <span class="label">Taxis</span>
       </router-link>
       <router-link to="/mandados" class="menu-item">
-        
+        <font-awesome-icon :icon="['fas', 'motorcycle']" style="color: #007BFF; font-size: 18px; margin-right: 5px;" />
         <span class="label">Mandados</span>
       </router-link>
     </footer>

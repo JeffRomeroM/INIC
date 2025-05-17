@@ -9,11 +9,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // Iconos que usarás
-import { faPhone, faHome, faMoon, faSun, faArrowRight, faBus } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faHome, faTaxi, faMotorcycle, faMoon, faSun, faArrowRight, faBus } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 // Agregar iconos a la librería
-library.add(faPhone,faHome, faMoon, faSun, faArrowRight, faWhatsapp, faBus)
+library.add(faPhone,faHome, faBus, faTaxi, faMotorcycle, faMoon, faSun, faArrowRight, faWhatsapp, faBus)
 
 // ✅ Primero crea la app
 const app = createApp(App)
