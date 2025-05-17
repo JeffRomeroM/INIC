@@ -1,6 +1,8 @@
 <template>
     <footer class="bottom-menu">
       <router-link to="/" class="menu-item" exact>
+        <font-awesome-icon :icon="['fas', 'home']" style="color: #007BFF; font-size: 18px; margin-right: 5px;" />
+
         <span class="label">Inicio</span>
       </router-link>
       <router-link to="/buses" class="menu-item">

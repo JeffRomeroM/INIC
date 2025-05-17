@@ -6,12 +6,15 @@
     <main class="main-content">
       <router-view />
       <Publicidad/>
+      
+      <InstallButon />
     </main>
   </div>
 </template>
 
 <script setup>
 import ButtomMenu from './components/ButtomMenu.vue';
+import InstallButon from './components/InstallButon.vue';
 import MenuTop from './components/MenuTop.vue';
 import Publicidad from './components/Publicidad.vue';
 </script>

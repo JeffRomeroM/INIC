@@ -48,7 +48,7 @@
   
   onMounted(async () => {
     await cargarPublicidades()
-    setInterval(mostrarPublicidad, 50000)
+    setInterval(mostrarPublicidad, 100000)
   })
   </script>
   
