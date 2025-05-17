@@ -2,6 +2,7 @@
   <div class="app-container">
     <MenuTop />
     <ButtomMenu />
+    <img src="../public/ITRAM512.png" alt="ggh" class="logoi">
     <main class="main-content">
       <router-view />
       <Publicidad/>
@@ -16,6 +17,11 @@ import Publicidad from './components/Publicidad.vue';
 </script>
 
 <style>
+.logoi{
+  width: 10vw;
+  height: 5vh;
+  position: fixed;
+}
 .app-container {
   width: 100%;
   margin: auto;
